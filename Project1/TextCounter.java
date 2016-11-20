@@ -36,7 +36,7 @@ public class TextCounter
    
     public void countWords(String inputData, int limit, boolean wordLimit)
     {
-        HashMap<String, Integer> inputMap = new HashMap<String, Integer>();;
+        HashMap<String, Integer> inputMap = new HashMap<String, Integer>();
         String [] inputWords = inputData.split("[ \t\n\r\f!?.]");
         Integer value = 1;
         int counter = 1;

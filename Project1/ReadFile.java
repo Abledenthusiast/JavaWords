@@ -60,7 +60,6 @@ public class ReadFile
             
             if(args.length>1)
             {
-                ;
                 try
                 {
                     limit = Integer.parseInt(args[1]);
